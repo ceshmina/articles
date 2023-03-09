@@ -30,7 +30,7 @@ x_train, x_valid, y_train, y_valid = train_test_split(
 
 LightGBMには大きくTraining APIとscikit-learn APIの2つの使い方がある。
 基本的にはTraining APIの方を使えばよさそう。
-ただし、scikit-learnと組み合わせて使いたいときは、インターフェースが揃っているscikit-leatn APIを使う必要がある。
+ただし、scikit-learnと組み合わせて使いたいときは、インターフェースが揃っているscikit-learn APIを使う必要がある。
 
 以下でそれぞれのシンプルな使い方を紹介する。
 
