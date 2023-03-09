@@ -1,0 +1,10 @@
+services:
+  jupyter:
+    build:
+      context: .
+    ports:
+      - 8888:8888
+    volumes:
+      - ./work:/work
+    working_dir: /work
+    command: jupyter lab --allow-root --ip=0.0.0.0
