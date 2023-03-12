@@ -1,0 +1,13 @@
+services:
+  upload:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/articles
+      - venv:/articles/.venv
+    working_dir: /articles/python
+    command: poetry run python main.py
+
+volumes:
+  venv:
