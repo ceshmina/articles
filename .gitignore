@@ -1,3 +1,4 @@
 *.aux
+config/account
 .ipynb_checkpoints
 *.log
