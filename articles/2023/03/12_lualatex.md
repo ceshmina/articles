@@ -28,4 +28,4 @@ lualatex main.tex
 
 を追加する。フォントを自由に変えやすいのもLuaLaTeXの利点らしい。
 
-試しに生成してみたPDFは[ここ](../../sample/tex/lualatex-jlreq.pdf)。改行も問題ない。
+試しに生成してみたPDFは[ここ](../../../sample/tex/lualatex-jlreq.pdf)。改行も問題ない。
